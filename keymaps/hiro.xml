@@ -60,6 +60,7 @@
     <keyboard-shortcut first-keystroke="alt t" second-keystroke="g" />
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="ChangesView.AddUnversioned">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="a" />
   </action>
@@ -120,6 +121,9 @@
   </action>
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="p" />
+  </action>
+  <action id="CopyReference">
+    <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="shift c" />
   </action>
   <action id="Diff.ShowDiff">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="d" />
@@ -237,9 +241,15 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="down" />
   </action>
   <action id="Markdown.Styling.CreateLink" />
+  <action id="MethodOverloadSwitchDown">
+    <keyboard-shortcut first-keystroke="shift meta 0" />
+  </action>
   <action id="MoveLineDown" />
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="d" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="shift ctrl n" second-keystroke="f" />
@@ -253,6 +263,7 @@
     <mouse-shortcut keystroke="alt button1 doubleClick" />
     <mouse-shortcut keystroke="meta button1 doubleClick" />
   </action>
+  <action id="OverrideMethods" />
   <action id="PlaySavedMacrosAction">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="f9" />
