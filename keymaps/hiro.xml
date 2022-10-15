@@ -8,7 +8,6 @@
     <keyboard-shortcut first-keystroke="alt t" second-keystroke="b" />
   </action>
   <action id="ActivateCommitToolWindow">
-    <keyboard-shortcut first-keystroke="meta 0" />
     <keyboard-shortcut first-keystroke="alt t" second-keystroke="c" />
   </action>
   <action id="ActivateDebugToolWindow">
@@ -73,6 +72,9 @@
   <action id="ChangesView.SetDefault" />
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="meta g" second-keystroke="c" />
+  </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
@@ -284,6 +286,10 @@
   </action>
   <action id="GotoSuperMethod" />
   <action id="GotoUrlAction" />
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="h" />
+  </action>
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
