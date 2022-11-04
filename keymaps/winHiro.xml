@@ -1,0 +1,160 @@
+<keymap version="1" name="winHiro" parent="$default">
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="b" />
+  </action>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="c" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="d" />
+  </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="f" />
+  </action>
+  <action id="ActivateNotificationsToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="n" />
+  </action>
+  <action id="ActivateProblemsViewToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="shift p" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="p" />
+  </action>
+  <action id="ActivatePullRequestsToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="left" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="r" />
+  </action>
+  <action id="ActivateServicesToolWindow" />
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="s" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="t" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="g" />
+  </action>
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="z" />
+  </action>
+  <action id="ChooseRunConfiguration" />
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" second-keystroke="a" />
+  </action>
+  <action id="CollapseDocComments">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" second-keystroke="d" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="CollapseRegionRecursively">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" second-keystroke="r" />
+  </action>
+  <action id="Compare.Selected">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="r" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="alt minus" />
+  </action>
+  <action id="EditorDecreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="shift alt minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="alt equals" />
+  </action>
+  <action id="EditorIncreaseFontSizeGlobal">
+    <keyboard-shortcut first-keystroke="shift alt equals" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" second-keystroke="a" />
+  </action>
+  <action id="ExpandDocComments">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" second-keystroke="d" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" second-keystroke="r" />
+  </action>
+  <action id="ExternalSystem.ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="Git.Add">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="a" />
+  </action>
+  <action id="Git.Branches" />
+  <action id="Git.Commit.And.Push.Executor" />
+  <action id="Git.Commit.Stage">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="c" />
+  </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="b" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="f" />
+  </action>
+  <action id="Git.Log.Branches.Navigate.Log.To.Selected.Branch" />
+  <action id="Git.Merge">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="m" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="left" />
+  </action>
+  <action id="Git.Reword.Commit" />
+  <action id="Git.Stage.Add" />
+  <action id="Git.Stage.Reset" />
+  <action id="Git.Stage.Revert">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="z" />
+  </action>
+  <action id="GitPushBranchAction">
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="right" />
+  </action>
+  <action id="GitToolBox.BlameDetails" />
+  <action id="GoGenerateFileAction" />
+  <action id="GotoLine" />
+  <action id="GotoRow" />
+  <action id="GotoTest" />
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="ServiceView.ShowServices" />
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+  <action id="SmartSelect" />
+  <action id="SmartUnSelect" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="alt period" />
+  </action>
+  <action id="StopBackgroundProcesses" />
+  <action id="TableResult.GrowSelection" />
+  <action id="TableResult.ShrinkSelection" />
+  <action id="UsageFiltering.WriteAccess" />
+  <action id="Vcs.UpdateProject" />
+  <action id="runShellFileAction" />
+</keymap>
