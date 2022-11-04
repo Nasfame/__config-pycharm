@@ -39,7 +39,9 @@
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="z" />
   </action>
-  <action id="ChooseRunConfiguration" />
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
@@ -99,6 +101,9 @@
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
   <action id="Git.Add">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="a" />
   </action>
@@ -132,12 +137,22 @@
   </action>
   <action id="GitToolBox.BlameDetails" />
   <action id="GoGenerateFileAction" />
+  <action id="GotoClass" />
   <action id="GotoLine" />
   <action id="GotoRow" />
   <action id="GotoTest" />
+  <action id="NewElementMenu">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="alt f2" />
+  </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
+  <action id="RerunTests" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
@@ -156,5 +171,6 @@
   <action id="TableResult.ShrinkSelection" />
   <action id="UsageFiltering.WriteAccess" />
   <action id="Vcs.UpdateProject" />
+  <action id="WebOpenInAction" />
   <action id="runShellFileAction" />
 </keymap>
