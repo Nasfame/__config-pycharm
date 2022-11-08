@@ -104,6 +104,9 @@
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
   <action id="Git.Add">
     <keyboard-shortcut first-keystroke="ctrl g" second-keystroke="a" />
   </action>
@@ -138,7 +141,9 @@
   <action id="GitToolBox.BlameDetails" />
   <action id="GoGenerateFileAction" />
   <action id="GotoClass" />
-  <action id="GotoLine" />
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="GotoRow" />
   <action id="GotoTest" />
   <action id="NewElementMenu">
@@ -169,7 +174,9 @@
   <action id="StopBackgroundProcesses" />
   <action id="TableResult.GrowSelection" />
   <action id="TableResult.ShrinkSelection" />
+  <action id="Terminal.ClearBuffer" />
   <action id="UsageFiltering.WriteAccess" />
+  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.UpdateProject" />
   <action id="WebOpenInAction" />
   <action id="runShellFileAction" />
