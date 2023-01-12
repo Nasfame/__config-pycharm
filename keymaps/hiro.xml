@@ -103,9 +103,11 @@
   </action>
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="shift meta minus" second-keystroke="a" />
+    <keyboard-shortcut first-keystroke="shift alt minus" second-keystroke="a" />
   </action>
   <action id="CollapseDocComments">
     <keyboard-shortcut first-keystroke="shift meta minus" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="shift alt minus" second-keystroke="d" />
   </action>
   <action id="CollapseExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -116,6 +118,7 @@
   </action>
   <action id="CollapseRegionRecursively">
     <keyboard-shortcut first-keystroke="shift meta minus" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="shift alt minus" second-keystroke="r" />
   </action>
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="up" />
@@ -224,6 +227,7 @@
   </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift meta equals" second-keystroke="a" />
+    <keyboard-shortcut first-keystroke="shift alt equals" second-keystroke="a" />
   </action>
   <action id="ExpandAllToLevel1">
     <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad1" />
@@ -242,6 +246,7 @@
   </action>
   <action id="ExpandDocComments">
     <keyboard-shortcut first-keystroke="shift meta equals" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="shift alt equals" second-keystroke="d" />
   </action>
   <action id="ExpandExpandableComponent">
     <keyboard-shortcut first-keystroke="shift enter" />
@@ -252,6 +257,7 @@
   </action>
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="shift meta equals" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="shift alt equals" second-keystroke="r" />
   </action>
   <action id="ExpandToLevel1">
     <keyboard-shortcut first-keystroke="meta multiply" second-keystroke="numpad1" />
