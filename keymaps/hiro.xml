@@ -217,6 +217,15 @@
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
+  <action id="EditorSearchSession.ToggleMatchCase">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="EditorSearchSession.ToggleRegex">
+    <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="r" />
+  </action>
+  <action id="EditorSearchSession.ToggleWholeWordsOnlyAction">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="EditorSelectWord" />
   <action id="EditorTextStart" />
   <action id="EditorToggleCase" />
@@ -433,6 +442,7 @@
   </action>
   <action id="Tree-selectFirst" />
   <action id="UnselectPreviousOccurrence" />
+  <action id="UsageFiltering.WriteAccess" />
   <action id="UsageView.Include" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Push">
