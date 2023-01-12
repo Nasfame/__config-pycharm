@@ -336,13 +336,16 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="QuickImplementations">
-    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="shift meta space" second-keystroke="space" />
+    <keyboard-shortcut first-keystroke="meta space" />
   </action>
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="shift meta space" second-keystroke="d" />
   </action>
   <action id="QuickTypeDefinition">
     <mouse-shortcut keystroke="button1 doubleClick" />
+    <keyboard-shortcut first-keystroke="shift meta space" second-keystroke="t" />
   </action>
   <action id="RecentLocations" />
   <action id="Refactorings.QuickListPopupAction">
@@ -383,8 +386,17 @@
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
   <action id="ToggleBookmarkWithMnemonic" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl v" second-keystroke="d" />
+  </action>
   <action id="ToggleFullScreen">
-    <keyboard-shortcut first-keystroke="f11" />
+    <keyboard-shortcut first-keystroke="ctrl v" second-keystroke="f" />
+  </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="ctrl v" second-keystroke="p" />
+  </action>
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="ctrl v" second-keystroke="z" />
   </action>
   <action id="Tree-selectFirst" />
   <action id="UnselectPreviousOccurrence" />
@@ -394,6 +406,7 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="right" />
   </action>
+  <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.ShowHistoryForRevision">
     <keyboard-shortcut first-keystroke="shift g" second-keystroke="shift h" />
   </action>
