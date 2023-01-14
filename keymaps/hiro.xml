@@ -1,4 +1,7 @@
 <keymap version="1" name="hiro" parent="Mac OS X 10.5+">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="meta o" second-keystroke="r" />
+  </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
     <keyboard-shortcut first-keystroke="meta y" />
@@ -157,6 +160,9 @@
   </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="meta o" second-keystroke="r" />
   </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="meta y" />
@@ -321,6 +327,7 @@
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="GotoClass" />
   <action id="GotoSuperMethod" />
   <action id="GotoTest" />
   <action id="GotoUrlAction" />
@@ -361,6 +368,9 @@
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
   <action id="NotebookSplitCellAction" />
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="meta o" second-keystroke="o" />
+  </action>
   <action id="OpenInRightSplit">
     <keyboard-shortcut first-keystroke="shift enter" />
     <mouse-shortcut keystroke="alt button1 doubleClick" />
