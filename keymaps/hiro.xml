@@ -445,6 +445,9 @@
   </action>
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
+  <action id="TerminalNewPredefinedSession">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl v" second-keystroke="d" />
