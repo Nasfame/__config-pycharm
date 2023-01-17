@@ -1,3 +1,10 @@
 <application>
-  <component name="LocalDatabaseDriverManager" version="201" />
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="hsqldb.local">
+      <artifact id="HSQLDB" name="HSQLDB" use="true" version="2.7.0" />
+    </driver>
+    <driver id="spark">
+      <artifact id="Apache Spark" name="Apache Spark" use="true" version="1.2.2" />
+    </driver>
+  </component>
 </application>
