@@ -96,6 +96,9 @@
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="c" />
   </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift ctrl r" second-keystroke="shift r" />
+  </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
@@ -165,6 +168,9 @@
   </action>
   <action id="CopyReference">
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="shift c" />
+  </action>
+  <action id="Coverage">
+    <keyboard-shortcut first-keystroke="shift ctrl r" second-keystroke="shift c" />
   </action>
   <action id="DatabaseView.ShowContentDiff">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift c" />
@@ -312,8 +318,14 @@
   <action id="ExternalSystem.CollapseAll">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
+  <action id="ExternalSystem.EditRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift ctrl r" second-keystroke="c" />
+  </action>
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="meta add" />
+  </action>
+  <action id="ExternalSystem.RunTask">
+    <keyboard-shortcut first-keystroke="shift ctrl r" second-keystroke="t" />
   </action>
   <action id="FindNext" />
   <action id="FindPrevious" />
@@ -388,6 +400,9 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
+  <action id="NotebookRunAllAction">
+    <keyboard-shortcut first-keystroke="shift ctrl r" second-keystroke="a" />
+  </action>
   <action id="NotebookRunCellAction">
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
@@ -441,6 +456,11 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
+  <action id="RunClass" />
+  <action id="RunDashboard.Run" />
+  <action id="RunInspection">
+    <keyboard-shortcut first-keystroke="shift ctrl r" second-keystroke="i" />
+  </action>
   <action id="SelectAllOccurrences" />
   <action id="SelectNextOccurrence" />
   <action id="ServiceView.ShowServices" />
@@ -469,7 +489,9 @@
   </action>
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
-  <action id="Terminal.SmartCommandExecution.Run" />
+  <action id="Terminal.SmartCommandExecution.Run">
+    <keyboard-shortcut first-keystroke="shift ctrl r" second-keystroke="shift t" />
+  </action>
   <action id="TerminalNewPredefinedSession">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
@@ -516,5 +538,8 @@
   <action id="ZoomCurrentWindow" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
+  <action id="runShellFileAction">
+    <keyboard-shortcut first-keystroke="shift ctrl r" second-keystroke="r" />
+  </action>
   <action id="tasks.close" />
 </keymap>
