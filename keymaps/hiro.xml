@@ -134,8 +134,14 @@
   </action>
   <action id="CompareClipboardWithSelection">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="shift v" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="c" />
   </action>
-  <action id="CompareTwoFiles" />
+  <action id="CompareFileWithEditor">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="e" />
+  </action>
+  <action id="CompareTwoFiles">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="f" />
+  </action>
   <action id="Console.Execute.Multiline" />
   <action id="Console.SplitLine" />
   <action id="Console.TableResult.SetDefault" />
@@ -159,6 +165,9 @@
   </action>
   <action id="CopyReference">
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="shift c" />
+  </action>
+  <action id="DatabaseView.ShowContentDiff">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="shift c" />
   </action>
   <action id="Diff.ShowDiff">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="d" />
@@ -233,9 +242,6 @@
   <action id="EditorPasteSimple" />
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
-  </action>
-  <action id="EditorSearchSession.ToggleMatchCase">
-    <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="EditorSearchSession.ToggleRegex">
     <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="r" />
