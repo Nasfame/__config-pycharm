@@ -451,6 +451,11 @@
   <action id="RecentLocations" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl f2" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" second-keystroke="space" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" second-keystroke="r" />
+  </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" second-keystroke="f" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
