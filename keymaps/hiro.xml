@@ -153,7 +153,6 @@
   <action id="CompareTwoFiles">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="f" />
   </action>
-  <action id="Console.Execute.Multiline" />
   <action id="Console.SplitLine" />
   <action id="Console.TableResult.SetDefault" />
   <action id="CopyAsPlainText">
