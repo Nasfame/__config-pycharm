@@ -6,6 +6,10 @@
     <keyboard-shortcut first-keystroke="shift meta z" />
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="ActivateBigDataToolWindowToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl meta b" />
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="shift b" />
+  </action>
   <action id="ActivateBookmarksToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
     <keyboard-shortcut first-keystroke="alt t" second-keystroke="b" />
@@ -27,6 +31,9 @@
     <keyboard-shortcut first-keystroke="meta 3" />
     <keyboard-shortcut first-keystroke="alt t" second-keystroke="f" />
     <keyboard-shortcut first-keystroke="meta t" second-keystroke="f" />
+  </action>
+  <action id="ActivateJiraToolWindow">
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="j" />
   </action>
   <action id="ActivateNotificationsToolWindow">
     <keyboard-shortcut first-keystroke="alt t" second-keystroke="n" />
@@ -75,6 +82,9 @@
     <keyboard-shortcut first-keystroke="meta 9" />
     <keyboard-shortcut first-keystroke="alt t" second-keystroke="g" />
     <keyboard-shortcut first-keystroke="meta t" second-keystroke="g" />
+  </action>
+  <action id="Activateaws.toolkit.explorerToolWindow">
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="a" />
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
