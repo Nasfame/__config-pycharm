@@ -74,8 +74,6 @@
     <keyboard-shortcut first-keystroke="meta t" second-keystroke="shift t" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt t" second-keystroke="t" />
-    <keyboard-shortcut first-keystroke="f12" />
     <keyboard-shortcut first-keystroke="meta t" second-keystroke="t" />
   </action>
   <action id="ActivateVersionControlToolWindow">
@@ -499,11 +497,22 @@
   </action>
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
+  <action id="Terminal.ClearBuffer">
+    <keyboard-shortcut first-keystroke="shift ctrl t" second-keystroke="c" />
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="c" />
+  </action>
+  <action id="Terminal.CopySelectedText">
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="Terminal.MoveToEditor">
+    <keyboard-shortcut first-keystroke="shift ctrl t" second-keystroke="e" />
+  </action>
+  <action id="Terminal.SmartCommandExecution.Debug">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+    <keyboard-shortcut first-keystroke="shift ctrl t" second-keystroke="d" />
+  </action>
   <action id="Terminal.SmartCommandExecution.Run">
     <keyboard-shortcut first-keystroke="shift ctrl r" second-keystroke="shift t" />
-  </action>
-  <action id="TerminalNewPredefinedSession">
-    <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleDistractionFreeMode">
