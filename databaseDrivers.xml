@@ -1,7 +1,18 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="athena">
+      <artifact id="Athena" name="Athena" use="true" version="2.0.16" />
+    </driver>
+    <driver id="bigquery">
+      <jdbc-additional-properties>
+        <property name="override.awt.toolkit" value="false" />
+      </jdbc-additional-properties>
+    </driver>
     <driver id="hsqldb.local">
       <artifact id="HSQLDB" name="HSQLDB" use="true" version="2.7.0" />
+    </driver>
+    <driver id="redshift">
+      <artifact id="Redshift" name="Redshift" use="true" version="2.1.0.1" />
     </driver>
     <driver id="spark">
       <artifact id="Apache Spark" name="Apache Spark" use="true" version="1.2.2" />
