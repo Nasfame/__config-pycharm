@@ -212,20 +212,31 @@
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift back_space" second-keystroke="l" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" second-keystroke="l" />
   </action>
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="shift back_space" second-keystroke="right" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" second-keystroke="e" />
   </action>
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="shift back_space" second-keystroke="left" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" second-keystroke="s" />
   </action>
   <action id="EditorDeleteToWordEnd">
     <keyboard-shortcut first-keystroke="alt delete" />
     <keyboard-shortcut first-keystroke="shift back_space" second-keystroke="down" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" second-keystroke="right" />
+  </action>
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="shift alt back_space" second-keystroke="shift w" />
   </action>
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="alt back_space" />
     <keyboard-shortcut first-keystroke="shift back_space" second-keystroke="up" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" second-keystroke="left" />
+  </action>
+  <action id="EditorDeleteToWordStartInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="shift alt back_space" second-keystroke="w" />
   </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
