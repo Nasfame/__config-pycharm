@@ -192,6 +192,7 @@
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="meta page_down" />
   </action>
+  <action id="EditorFocusGutter" />
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
@@ -210,12 +211,19 @@
   </action>
   <action id="EditorLineEndWithSelection" />
   <action id="EditorMoveToPageBottom" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
   <action id="EditorNextWordWithSelection" />
   <action id="EditorPasteSimple" />
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="EditorShowGutterIconTooltip" />
   <action id="EditorTextStart" />
   <action id="EditorToggleCase" />
   <action id="EditorUnSelectWord" />
@@ -321,6 +329,9 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="JumpToLastWindow" />
+  <action id="JupyterNotebookMoveCellDownCommandModeAction">
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
   <action id="List-selectLastRow" />
   <action id="List-selectLastRowExtendSelection" />
   <action id="LocalHistory.ShowSelectionHistory">
@@ -401,6 +412,7 @@
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="s" />
   </action>
+  <action id="SmartTypeCompletion" />
   <action id="StartStopMacroRecording">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="s" />
@@ -452,6 +464,7 @@
     <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="ZoomCurrentWindow" />
+  <action id="hg4idea.QFold" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="tasks.close" />
