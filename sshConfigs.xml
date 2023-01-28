@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" host="infra2" id="4fc9cded-5c77-4054-aa62-f6b8e80d6d6b" port="22" nameFormat="DESCRIPTIVE" username="pyor-nodeinfrastructu-p1a23gw4oh4" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</application>
