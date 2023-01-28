@@ -186,6 +186,15 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="d" />
   </action>
   <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="DockPinnedMode">
+    <keyboard-shortcut first-keystroke="shift ctrl meta t" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="ctrl meta t" second-keystroke="d" />
+  </action>
+  <action id="DockUnpinnedMode">
+    <keyboard-shortcut first-keystroke="shift ctrl meta t" second-keystroke="u" />
+    <keyboard-shortcut first-keystroke="ctrl meta t" second-keystroke="shift d" />
+    <keyboard-shortcut first-keystroke="ctrl meta t" second-keystroke="shift u" />
+  </action>
   <action id="Docker.RemoteServers.StartComposeService" />
   <action id="Docker.RemoteServers.StartContainer" />
   <action id="EditMacros">
@@ -244,6 +253,7 @@
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="meta page_down" />
   </action>
+  <action id="EditorFocusGutter" />
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
@@ -262,8 +272,12 @@
   </action>
   <action id="EditorLineEndWithSelection" />
   <action id="EditorMoveToPageBottom" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
   <action id="EditorNextWordWithSelection" />
   <action id="EditorPasteSimple" />
+  <action id="EditorPreviousWord" />
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
@@ -274,6 +288,7 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="EditorShowGutterIconTooltip" />
   <action id="EditorSplitLine" />
   <action id="EditorTextStart" />
   <action id="EditorToggleCase" />
@@ -353,6 +368,9 @@
   <action id="FindUsagesInFile">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="f" />
   </action>
+  <action id="FloatMode">
+    <keyboard-shortcut first-keystroke="ctrl meta t" second-keystroke="f" />
+  </action>
   <action id="Git.Add" />
   <action id="Git.Commit.And.Push.Executor" />
   <action id="Git.Commit.Stage">
@@ -394,6 +412,9 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="JumpToLastWindow" />
+  <action id="JupyterNotebookMoveCellDownCommandModeAction">
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
   <action id="List-selectLastRow" />
   <action id="List-selectLastRowExtendSelection" />
   <action id="LocalHistory.ShowSelectionHistory">
@@ -499,6 +520,9 @@
   <action id="ShowSettingsAndFindUsages">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="s" />
   </action>
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="shift ctrl meta t" second-keystroke="space" />
+  </action>
   <action id="SplitChooser.Duplicate" />
   <action id="StartStopMacroRecording">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="up" />
@@ -543,6 +567,9 @@
     <keyboard-shortcut first-keystroke="ctrl v" second-keystroke="z" />
   </action>
   <action id="Tree-selectFirst" />
+  <action id="UndockMode">
+    <keyboard-shortcut first-keystroke="ctrl meta t" second-keystroke="u" />
+  </action>
   <action id="UnselectPreviousOccurrence" />
   <action id="UsageFiltering.WriteAccess" />
   <action id="UsageView.Include" />
@@ -569,7 +596,11 @@
     <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="ViewSource" />
+  <action id="WindowMode">
+    <keyboard-shortcut first-keystroke="ctrl meta t" second-keystroke="w" />
+  </action>
   <action id="ZoomCurrentWindow" />
+  <action id="hg4idea.QFold" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.InsertImageAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="runShellFileAction">

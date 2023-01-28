@@ -1,0 +1,15 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="EditorShowGutterIconTooltip">
+        <abbreviation name="tip" />
+      </action>
+      <action id="EditorPreviousWord">
+        <abbreviation name="focus" />
+      </action>
+      <action id="EditorFocusGutter">
+        <abbreviation name="focus" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
