@@ -1,0 +1,15 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="Project 'holocron'" />
+    <option name="defaultScopeName" value="Project 'holocron'" />
+    <option name="localWholeWordsOnly" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
+    <option name="SEARCH_SCOPE" value="Project 'holocron'" />
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
+    <mask>*.pyw</mask>
+    <mask>*.py</mask>
+    <mask>*.yml</mask>
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<application>
+  <component name="BdtStatisticsSettings">
+    <option name="reportedBrokenConnections">
+      <set>
+        <option value="AWS S3@S3ConnectionGroup@2072762017540413516" />
+      </set>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,20 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="MarkdownSettingsMigration">
+        <option name="stateVersion" value="1" />
+      </component>
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+      <component name="WindowStateProjectService">
+        <state x="424" y="125" key="#SSH_Configurations" timestamp="1674938757465">
+          <screen x="0" y="25" width="1680" height="968" />
+        </state>
+        <state x="424" y="125" key="#SSH_Configurations/0.25.1680.968" timestamp="1674938757465" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
