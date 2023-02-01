@@ -1,0 +1,11 @@
+<application>
+  <component name="RfsFileViewerSettings">
+    <option name="tabsInfo">
+      <list>
+        <RfsFileViewerInfo>
+          <option name="driverId" value="AWS S3@S3ConnectionGroup@13339205970683727" />
+        </RfsFileViewerInfo>
+      </list>
+    </option>
+  </component>
+</application>
