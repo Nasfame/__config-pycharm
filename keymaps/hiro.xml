@@ -13,12 +13,12 @@
     <keyboard-shortcut first-keystroke="meta t" second-keystroke="c" />
   </action>
   <action id="ActivateDatabaseToolWindow">
-    <keyboard-shortcut first-keystroke="meta t" second-keystroke="shift d" />
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="d" />
   </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
     <keyboard-shortcut first-keystroke="alt t" second-keystroke="d" />
-    <keyboard-shortcut first-keystroke="meta t" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="shift d" />
   </action>
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="meta 3" />
