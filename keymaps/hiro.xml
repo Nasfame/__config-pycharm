@@ -347,6 +347,10 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="JumpToLastWindow" />
+  <action id="JupyterDebugAction">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
   <action id="JupyterNotebookMoveCellDownCommandModeAction">
     <keyboard-shortcut first-keystroke="alt j" />
   </action>
