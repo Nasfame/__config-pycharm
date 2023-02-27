@@ -89,6 +89,7 @@
   <action id="ChangesView.Edit">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="o" />
   </action>
+  <action id="ChangesView.GroupBy.Module" />
   <action id="ChangesView.RemoveDeleted">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="back_space" />
   </action>
@@ -166,6 +167,8 @@
   </action>
   <action id="EditMacros">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="e" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" second-keystroke="e" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="e" />
   </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="meta down" />
@@ -224,6 +227,7 @@
     <keyboard-shortcut first-keystroke="alt c" second-keystroke="right" />
   </action>
   <action id="EditorLineEndWithSelection" />
+  <action id="EditorMatchBrace" />
   <action id="EditorMoveToPageBottom" />
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
@@ -400,9 +404,15 @@
   <action id="PlaySavedMacrosAction">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="f9" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="m" />
   </action>
   <action id="PlaybackLastMacro">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" second-keystroke="l" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" second-keystroke="left" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="left" />
   </action>
   <action id="PrevSplitter" />
   <action id="PreviousTab">
@@ -461,6 +471,13 @@
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="s" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="space" />
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" second-keystroke="space" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" second-keystroke="s" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" second-keystroke="up" />
+    <keyboard-shortcut first-keystroke="shift ctrl m" second-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="s" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="space" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="l" />
   </action>
   <action id="StepInto" />
   <action id="SyncSettings">
@@ -468,6 +485,7 @@
   </action>
   <action id="Synchronize" />
   <action id="Table-selectFirstRow" />
+  <action id="TodoViewGroupByShowModules" />
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl v" second-keystroke="d" />
@@ -483,6 +501,7 @@
   </action>
   <action id="Tree-selectFirst" />
   <action id="UnselectPreviousOccurrence" />
+  <action id="UsageGrouping.Module" />
   <action id="UsageView.Include" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.Push">
@@ -493,6 +512,7 @@
   <action id="Vcs.ShowHistoryForRevision">
     <keyboard-shortcut first-keystroke="shift g" second-keystroke="shift h" />
   </action>
+  <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="h" />
   </action>
