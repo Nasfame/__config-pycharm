@@ -478,6 +478,7 @@
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="s" />
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="space" />
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="l" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="r" />
   </action>
   <action id="StepInto" />
   <action id="SyncSettings">
