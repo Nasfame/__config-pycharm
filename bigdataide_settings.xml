@@ -5,16 +5,16 @@
         <ExtendedConnectionData>
           <option name="extended">
             <map>
-              <entry key="1unhandled" value="rO0ABXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAABdwgAAAACAAAAAXQAG2lzQnVja2V0U291cmNlRnJvbVdvcmtzcGFjZXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAF4AA==" />
               <entry key="activeAuthenticationType" value="rO0ABXQAHVByb2ZpbGUgZnJvbSBjcmVkZW50aWFscyBmaWxl" />
               <entry key="bucket" value="rO0ABXQAAA==" />
               <entry key="bucketFilter" value="rO0ABXQAAA==" />
               <entry key="bucketFilterByRegion" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAE=" />
-              <entry key="bucketFilterType" value="rO0ABX5yAD9jb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb21tb24uZmlsZXN0b3JhZ2VzLkJ1Y2tldEZpbHRlclR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDT05UQUlOUw==" />
+              <entry key="bucketFilterType" value="rO0ABX5yAEJvcmcuY29tLmpldGJyYWlucy5iaWdkYXRhdG9vbHMuZmlsZXN0b3JhZ2UuY29tbW9uLkJ1Y2tldEZpbHRlclR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDT05UQUlOUw==" />
               <entry key="bucketName" value="rO0ABXQAAA==" />
               <entry key="customEndpoint" value="rO0ABXQAAA==" />
               <entry key="customRegion" value="rO0ABXQAAA==" />
               <entry key="isBucketSourceCustom" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
+              <entry key="isBucketSourceFromWorkspace" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAE=" />
               <entry key="isDisableSocketProxy" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
               <entry key="isMultiBucketSupport" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAE=" />
               <entry key="isPreemptiveBasicProxyAuth" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
@@ -27,7 +27,7 @@
               <entry key="proxyPort" value="rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAABQ" />
               <entry key="proxyWorkstation" value="rO0ABXQAAA==" />
               <entry key="region" value="rO0ABXQACXVzLWVhc3QtMQ==" />
-              <entry key="tunnel" value="rO0ABXNyAFdjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb21tb24uY29ubmVjdGlvbi50dW5uZWwubW9kZWwuQ29ubmVjdGlvblNzaFR1bm5lbERhdGFMZWdhY3mINKLe8MxKawIABFoACWlzRW5hYmxlZEkACnJlbW90ZVBvcnRMAAhjb25maWdJZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnJlbW90ZUhvc3RxAH4AAXhwAP////90AABxAH4AAw==" />
+              <entry key="tunnel" value="rO0ABXNyAFdjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb21tb24uY29ubmVjdGlvbi50dW5uZWwubW9kZWwuQ29ubmVjdGlvblNzaFR1bm5lbERhdGFMZWdhY3mINKLe8MxKbAIABFoACWlzRW5hYmxlZEkACnJlbW90ZVBvcnRMAAhjb25maWdJZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnJlbW90ZUhvc3RxAH4AAXhwAP////90AABxAH4AAw==" />
               <entry key="useCustomEndpoint" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
             </map>
           </option>
@@ -40,16 +40,16 @@
         <ExtendedConnectionData>
           <option name="extended">
             <map>
-              <entry key="1unhandled" value="rO0ABXNyABdqYXZhLnV0aWwuTGlua2VkSGFzaE1hcDTATlwQbMD7AgABWgALYWNjZXNzT3JkZXJ4cgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMAAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAABdwgAAAACAAAAAXQAG2lzQnVja2V0U291cmNlRnJvbVdvcmtzcGFjZXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAF4AA==" />
               <entry key="activeAuthenticationType" value="rO0ABXQAHVByb2ZpbGUgZnJvbSBjcmVkZW50aWFscyBmaWxl" />
               <entry key="bucket" value="rO0ABXQAAA==" />
               <entry key="bucketFilter" value="rO0ABXQAAA==" />
               <entry key="bucketFilterByRegion" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAE=" />
-              <entry key="bucketFilterType" value="rO0ABX5yAD9jb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb21tb24uZmlsZXN0b3JhZ2VzLkJ1Y2tldEZpbHRlclR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDT05UQUlOUw==" />
+              <entry key="bucketFilterType" value="rO0ABX5yAEJvcmcuY29tLmpldGJyYWlucy5iaWdkYXRhdG9vbHMuZmlsZXN0b3JhZ2UuY29tbW9uLkJ1Y2tldEZpbHRlclR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDT05UQUlOUw==" />
               <entry key="bucketName" value="rO0ABXQAAA==" />
               <entry key="customEndpoint" value="rO0ABXQAAA==" />
               <entry key="customRegion" value="rO0ABXQAAA==" />
               <entry key="isBucketSourceCustom" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
+              <entry key="isBucketSourceFromWorkspace" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAE=" />
               <entry key="isDisableSocketProxy" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
               <entry key="isMultiBucketSupport" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAE=" />
               <entry key="isPreemptiveBasicProxyAuth" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
@@ -62,7 +62,7 @@
               <entry key="proxyPort" value="rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAABQ" />
               <entry key="proxyWorkstation" value="rO0ABXQAAA==" />
               <entry key="region" value="rO0ABXQACXVzLWVhc3QtMQ==" />
-              <entry key="tunnel" value="rO0ABXNyAFdjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb21tb24uY29ubmVjdGlvbi50dW5uZWwubW9kZWwuQ29ubmVjdGlvblNzaFR1bm5lbERhdGFMZWdhY3mINKLe8MxKawIABFoACWlzRW5hYmxlZEkACnJlbW90ZVBvcnRMAAhjb25maWdJZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnJlbW90ZUhvc3RxAH4AAXhwAP////90AABxAH4AAw==" />
+              <entry key="tunnel" value="rO0ABXNyAFdjb20uamV0YnJhaW5zLmJpZ2RhdGF0b29scy5jb21tb24uY29ubmVjdGlvbi50dW5uZWwubW9kZWwuQ29ubmVjdGlvblNzaFR1bm5lbERhdGFMZWdhY3mINKLe8MxKbAIABFoACWlzRW5hYmxlZEkACnJlbW90ZVBvcnRMAAhjb25maWdJZHQAEkxqYXZhL2xhbmcvU3RyaW5nO0wACnJlbW90ZUhvc3RxAH4AAXhwAP////90AABxAH4AAw==" />
               <entry key="useCustomEndpoint" value="rO0ABXNyABFqYXZhLmxhbmcuQm9vbGVhbs0gcoDVnPruAgABWgAFdmFsdWV4cAA=" />
             </map>
           </option>
