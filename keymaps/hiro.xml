@@ -137,9 +137,14 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="r" />
   </action>
   <action id="CompareClipboardWithSelection">
-    <keyboard-shortcut first-keystroke="meta g" second-keystroke="shift v" />
+    <keyboard-shortcut first-keystroke="shift ctrl c" second-keystroke="v" />
   </action>
-  <action id="CompareTwoFiles" />
+  <action id="CompareFileWithEditor">
+    <keyboard-shortcut first-keystroke="shift ctrl c" second-keystroke="e" />
+  </action>
+  <action id="CompareTwoFiles">
+    <keyboard-shortcut first-keystroke="shift ctrl c" second-keystroke="f" />
+  </action>
   <action id="Console.TableResult.SetDefault" />
   <action id="CopyAsPlainText">
     <keyboard-shortcut first-keystroke="shift meta c" second-keystroke="c" />
@@ -179,6 +184,7 @@
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="EditorChooseLookupItemDot" />
   <action id="EditorCutLineEnd" />
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -481,6 +487,10 @@
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="r" />
   </action>
   <action id="StepInto" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta f2" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
   <action id="SyncSettings">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
