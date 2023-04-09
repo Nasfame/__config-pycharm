@@ -406,6 +406,11 @@
     <mouse-shortcut keystroke="alt button1 doubleClick" />
     <mouse-shortcut keystroke="meta button1 doubleClick" />
   </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="o" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="i" />
+  </action>
   <action id="OverrideMethods" />
   <action id="PlaySavedMacrosAction">
     <keyboard-shortcut first-keystroke="alt m" second-keystroke="p" />
@@ -446,6 +451,10 @@
     <keyboard-shortcut first-keystroke="ctrl f2" />
     <keyboard-shortcut first-keystroke="shift ctrl meta r" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="c" />
+  </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
@@ -467,6 +476,10 @@
   </action>
   <action id="ShowRecentFindUsagesGroup">
     <keyboard-shortcut first-keystroke="shift meta u" second-keystroke="r" />
+  </action>
+  <action id="ShowReformatFileDialog">
+    <keyboard-shortcut first-keystroke="shift meta alt l" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" second-keystroke="f" />
   </action>
   <action id="ShowSearchHistory" />
   <action id="ShowSettingsAndFindUsages">
