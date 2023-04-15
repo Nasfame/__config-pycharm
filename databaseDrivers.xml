@@ -3,5 +3,8 @@
     <driver id="athena">
       <artifact id="Athena" name="Athena" use="true" version="2.0.16" />
     </driver>
+    <driver id="sqlite.xerial">
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.40.1" />
+    </driver>
   </component>
 </application>
