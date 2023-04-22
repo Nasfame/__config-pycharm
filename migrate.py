@@ -6,7 +6,9 @@ import sys
 
 import platform
 
-sources = ["migrate.py", "git2", ".git/hooks",
+from datetime import datetime
+
+sources = ["migrate.py", "git2", ".git/hooks/post-commit",
            "_windows", "_mac",
            "keymaps",
            "keymapFlags.xml", "abbrevs.xml", "editor-font.xml"  # "colors.scheme.xml",]
@@ -17,7 +19,7 @@ sources = ["migrate.py", "git2", ".git/hooks",
            "NewUIInfoService.xml",
            "advancedSettings.xml",
            ]
-destinations = ["goland", "webstorm", "rubymine", "pycharm", "datagrip", "dataspell"]
+destinations = ["pycharm","goland" ]#, "webstorm", "rubymine", "datagrip", "dataspell"]
 
 pwd = os.getcwd()
 
@@ -37,6 +39,7 @@ if not os.path.exists(pwd):
     raise FileNotFoundError(f"config folder not found {pwd}")
 
 print(f"CWD - {pwd}")
+print("current_config_folder",current_config_folder)
 
 dest_path_template = list(os.path.split(pwd))  # pwd.split('/')
 
@@ -44,19 +47,30 @@ for config_folder in destinations:
     if config_folder == current_config_folder:
         continue
     dest_path_template[-1] = config_folder
-    destination = os.path.join(*dest_path_template)  # f"~/Nasfame/jetbrains/{dest}"
-    print("Destination", destination)
+    dest_config = os.path.join(*dest_path_template)  # f"~/Nasfame/jetbrains/{dest}"
+    print("Destination", dest_config)
     for src in sources:
         print("copying", src)
+        src_path = os.path.split(src)[:1]
+        destination = os.path.join(dest_config,*src_path)
         if os.path.isfile(src):
             # if os.path.exists(destination):
             #   os.remove(destination)
             # Copy the file with overwrite
             # shutil.copyfile(src, destination)
+            print(f"destination for {src} is {destination} ")
+            if not os.path.exists(destination): 
+                print(f"creating dir - {destination}")
+                os.makedirs(destination,exist_ok=True)
             shutil.copy2(src, destination)
         elif os.path.isdir(src):
             # if os.path.exists(destination): shutil.rmtree(destination)
             shutil.copytree(src, destination, dirs_exist_ok=True)
+
+    with open(f"{dest_config}/sync.log",'a') as f1:
+        now_utc = datetime.utcnow()
+        f1.write(f"{now_utc} {config_folder} | Timezone - IST")
+        print("appending sync.log")
 
 print()
 print("bye")
