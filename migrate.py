@@ -8,6 +8,8 @@ import platform
 
 from datetime import datetime
 
+import subprocess
+
 sources = ["migrate.py", "git2", ".git/hooks/post-commit",
            "_windows", "_mac",
            "keymaps",
@@ -19,7 +21,8 @@ sources = ["migrate.py", "git2", ".git/hooks/post-commit",
            "NewUIInfoService.xml",
            "advancedSettings.xml",
            ]
-destinations = ["pycharm","goland" , "webstorm", "rubymine", "datagrip", "dataspell"]
+destinations = ["pycharm", "goland", "webstorm",
+                "rubymine", "datagrip", "dataspell"]
 
 pwd = os.getcwd()
 
@@ -39,7 +42,7 @@ if not os.path.exists(pwd):
     raise FileNotFoundError(f"config folder not found {pwd}")
 
 print(f"CWD - {pwd}")
-print("current_config_folder",current_config_folder)
+print("current_config_folder", current_config_folder)
 
 dest_path_template = list(os.path.split(pwd))  # pwd.split('/')
 
@@ -47,32 +50,56 @@ for config_folder in destinations:
     if config_folder == current_config_folder:
         continue
     dest_path_template[-1] = config_folder
-    dest_config = os.path.join(*dest_path_template)  # f"~/Nasfame/jetbrains/{dest}"
+    # f"~/Nasfame/jetbrains/{dest}"
+    dest_config = os.path.join(*dest_path_template)
     print("Destination", dest_config)
     for src in sources:
         print("copying", src)
         src_path = os.path.split(src)[:1]
-        destination = os.path.join(dest_config,*src_path)
+        destination = os.path.join(dest_config, *src_path)
         if os.path.isfile(src):
             # if os.path.exists(destination):
             #   os.remove(destination)
             # Copy the file with overwrite
             # shutil.copyfile(src, destination)
             print(f"destination for {src} is {destination} ")
-            if not os.path.exists(destination): 
+            if not os.path.exists(destination):
                 print(f"creating dir - {destination}")
-                os.makedirs(destination,exist_ok=True)
+                os.makedirs(destination, exist_ok=True)
             shutil.copy2(src, destination)
         elif os.path.isdir(src):
             # if os.path.exists(destination): shutil.rmtree(destination)
             shutil.copytree(src, destination, dirs_exist_ok=True)
 
-    with open(f"{dest_config}/sync.log",'a') as f1:
+    with open(f"{dest_config}/sync.log", 'a') as f1:
         now_utc = datetime.utcnow()
         f1.write(f"{now_utc} {current_config_folder} | Timezone - IST")
         print("appending sync.log")
 
-    os.system("git add .")
+    git_cmds = [
+        # ["git", "add", "."],
+        "git add .",
+        # ["git", "-c custom.ignorePostCommitHook=true","commit", "-m",  f"synced with {current_config_folder}"]
+        f"""git -c custom.ignorePostCommitHook=true commit -m "synced with {current_config_folder}" """
+    ]
+
+    for git_cmd in git_cmds:
+        cmd = git_cmd #" ".join(git_cmd)
+        result = subprocess.run(cmd, cwd=dest_config, shell=True,capture_output=True, text=True
+                                )
+        # print(cmd)
+        return_code = result.returncode
+        if return_code == 1:
+            print(f"stderr: {result.stderr.strip()}")
+            print(f"breaking with {return_code}")
+            break
+
+        # print(f"Return code: {result.returncode}")
+        # print(f"stdout: {result.stdout.strip()}")
+
+            # stdout=subprocess.PIPE)
+
+    # os.system("git add .")
     # os.system(f"""git commit -m "synced with {current_config_folder}" """) #FIXME results in race condition as git hook would be triggered in the destination directory
 
 print()
