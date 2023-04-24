@@ -72,5 +72,8 @@ for config_folder in destinations:
         f1.write(f"{now_utc} {current_config_folder} | Timezone - IST")
         print("appending sync.log")
 
+    # os.system("git add .")
+    # os.system(f"""git commit -m "synced with {current_config_folder}" """) #FIXME results in race condition as git hook would be triggered in the destination directory
+
 print()
 print("bye")
