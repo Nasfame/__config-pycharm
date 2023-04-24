@@ -1,5 +1,5 @@
 #!/bin/sh
 
 git add .
-git commit -m "$(date +%d-%m-%y) - updated"
+git commit -m "$(date +%d-%m-%y)"
 git push -f
