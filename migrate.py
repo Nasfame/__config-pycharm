@@ -79,8 +79,8 @@ for config_folder in destinations:
     git_cmds = [
         # ["git", "add", "."],
         "git add .",
-        # ["git", "-c custom.ignorePostCommitHook=true","commit", "-m",  f"synced with {current_config_folder}"]
         f"""git -c custom.ignorePostCommitHook=true commit -m "synced with {current_config_folder}" """
+        # ["git", "-c custom.ignorePostCommitHook=true","commit", "-m",  f"synced with {current_config_folder}"]
     ]
 
     for git_cmd in git_cmds:
