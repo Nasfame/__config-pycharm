@@ -87,7 +87,6 @@ for config_folder in destinations:
         cmd = git_cmd #" ".join(git_cmd)
         result = subprocess.run(cmd, cwd=dest_config, shell=True,capture_output=True, text=True
                                 )
-        # print(cmd)
         return_code = result.returncode
         if return_code == 1:
             print(f"stderr: {result.stderr.strip()}")
