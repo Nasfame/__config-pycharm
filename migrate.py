@@ -19,7 +19,7 @@ sources = ["migrate.py", "git2", ".git/hooks/post-commit",
            "NewUIInfoService.xml",
            "advancedSettings.xml",
            ]
-destinations = ["pycharm","goland" ]#, "webstorm", "rubymine", "datagrip", "dataspell"]
+destinations = ["pycharm","goland" , "webstorm", "rubymine", "datagrip", "dataspell"]
 
 pwd = os.getcwd()
 
