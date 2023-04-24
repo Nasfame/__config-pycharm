@@ -82,7 +82,7 @@ for config_folder in destinations:
         "git add .",
         f"""git commit -m "synced with {current_config_folder}" """,
         "chmod +x .git/hooks/post-commit",
-        "git push"S
+        "git push"
     ]
     # https://linuxhint.com/execute_shell_python_subprocess_run_method/
     for git_cmd in git_cmds:
