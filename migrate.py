@@ -82,15 +82,16 @@ for config_folder in destinations:
         f"""git -c custom.ignorePostCommitHook=true commit -m "synced with {current_config_folder}" """
         # ["git", "-c custom.ignorePostCommitHook=true","commit", "-m",  f"synced with {current_config_folder}"]
     ]
-
+    # https://linuxhint.com/execute_shell_python_subprocess_run_method/
     for git_cmd in git_cmds:
         cmd = git_cmd #" ".join(git_cmd)
         print(cmd)
-        result = subprocess.run(cmd, cwd=dest_config, shell=True,capture_output=True, text=True
+        result = subprocess.run(cmd, cwd=dest_config, shell=True,capture_output=True, text=True,check=True,
                                 )
         return_code = result.returncode
         if return_code == 1:
             print(f"stderr: {result.stderr.strip()}")
+            print(f"stdout: {result.stdout.strip()}")
             print(f"breaking with {return_code}")
             break
 
