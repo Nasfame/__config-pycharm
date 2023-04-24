@@ -69,7 +69,7 @@ for config_folder in destinations:
 
     with open(f"{dest_config}/sync.log",'a') as f1:
         now_utc = datetime.utcnow()
-        f1.write(f"{now_utc} {config_folder} | Timezone - IST")
+        f1.write(f"{now_utc} {current_config_folder} | Timezone - IST")
         print("appending sync.log")
 
 print()
