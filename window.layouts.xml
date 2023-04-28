@@ -427,7 +427,10 @@
           "id": "Pull Requests"
         },
         {
-          "id": "Commit"
+          "id": "Commit",
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.33005953
         },
         {
           "id": "Bookmarks",
@@ -443,8 +446,6 @@
           "id": "Project",
           "order": 2,
           "contentUiType": "COMBO",
-          "isActiveOnStart": true,
-          "isVisible": true,
           "weight": 0.20863095
         },
         {
@@ -458,7 +459,8 @@
         },
         {
           "id": "Database Changes",
-          "anchor": "BOTTOM"
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
         },
         {
           "id": "aws.sqs",
@@ -487,11 +489,6 @@
           "anchor": "BOTTOM"
         },
         {
-          "id": "Run",
-          "order": 2,
-          "anchor": "BOTTOM"
-        },
-        {
           "id": "Debug",
           "order": 3,
           "anchor": "BOTTOM",
@@ -516,7 +513,8 @@
         {
           "id": "Python Console",
           "order": 7,
-          "anchor": "BOTTOM"
+          "anchor": "BOTTOM",
+          "weight": 0.3300209
         },
         {
           "id": "Problems View",
@@ -526,7 +524,8 @@
         {
           "id": "Terminal",
           "order": 9,
-          "anchor": "BOTTOM"
+          "anchor": "BOTTOM",
+          "weight": 0.28713387
         },
         {
           "id": "Services",
@@ -552,7 +551,8 @@
         {
           "id": "CodiumAI",
           "order": 2,
-          "anchor": "RIGHT"
+          "anchor": "RIGHT",
+          "weight": 0.33005953
         },
         {
           "id": "ChatGPT",
@@ -574,13 +574,21 @@
           "order": 6,
           "anchor": "RIGHT",
           "weight": 0.25
+        },
+        {
+          "id": "Run",
+          "order": 7,
+          "anchor": "RIGHT",
+          "isVisible": true,
+          "weight": 0.33005953,
+          "isSplit": true
         }
       ],
       "unifiedWeights": {
         "top": 0.33,
-        "left": 0.20863095,
-        "bottom": 0.33,
-        "right": 0.33
+        "left": 0.33005953,
+        "bottom": 0.3300209,
+        "right": 0.33005953
       }
     }
   }
