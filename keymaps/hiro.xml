@@ -93,6 +93,7 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="o" />
   </action>
   <action id="ChangesView.GroupBy.Module" />
+  <action id="ChangesView.Move" />
   <action id="ChangesView.RemoveDeleted">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="back_space" />
   </action>
@@ -367,6 +368,7 @@
   <action id="InvertBoolean">
     <keyboard-shortcut first-keystroke="shift ctrl meta r" second-keystroke="b" />
   </action>
+  <action id="Jdbc.OpenConsole.New" />
   <action id="JumpToLastWindow" />
   <action id="JupyterDebugAction">
     <keyboard-shortcut first-keystroke="shift alt enter" />
@@ -604,6 +606,7 @@
   <action id="UsageGrouping.Module" />
   <action id="UsageView.Include" />
   <action id="UsageView.ShowRecentFindUsages" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="right" />
