@@ -2,10 +2,10 @@
   <component name="AbbreviationManager">
     <abbreviations>
       <action id="com.darkyen.actions.ResetGitTimeAction">
-        <abbreviation name="reset" />
+        <abbreviation name="resetg" />
       </action>
       <action id="com.darkyen.actions.ResetTimeAction">
-        <abbreviation name="resetg" />
+        <abbreviation name="reset" />
       </action>
       <action id="SyncSettings">
         <abbreviation name="sync" />
