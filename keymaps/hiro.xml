@@ -512,6 +512,9 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta alt r" />
   </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="meta o" second-keystroke="f" />
+  </action>
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="meta delete" />
     <keyboard-shortcut first-keystroke="shift ctrl meta r" second-keystroke="back_space" />
