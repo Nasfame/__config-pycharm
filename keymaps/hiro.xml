@@ -83,6 +83,9 @@
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="CallHierarchy">
+    <keyboard-shortcut first-keystroke="ctrl h" second-keystroke="c" />
+  </action>
   <action id="ChangeSplitOrientation">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="t" />
   </action>
@@ -401,6 +404,9 @@
   <action id="MembersPullUp">
     <keyboard-shortcut first-keystroke="shift ctrl meta r" second-keystroke="up" />
   </action>
+  <action id="MethodHierarchy">
+    <keyboard-shortcut first-keystroke="ctrl h" second-keystroke="m" />
+  </action>
   <action id="MethodOverloadSwitchDown">
     <keyboard-shortcut first-keystroke="shift meta 0" />
   </action>
@@ -603,6 +609,12 @@
     <keyboard-shortcut first-keystroke="ctrl v" second-keystroke="z" />
   </action>
   <action id="Tree-selectFirst" />
+  <action id="TypeHierarchy">
+    <keyboard-shortcut first-keystroke="ctrl h" second-keystroke="t" />
+  </action>
+  <action id="TypeHierarchyBase.BaseOnThisType">
+    <keyboard-shortcut first-keystroke="ctrl h" second-keystroke="t" />
+  </action>
   <action id="UnselectPreviousOccurrence" />
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="up" />
