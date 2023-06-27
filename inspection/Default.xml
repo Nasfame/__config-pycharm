@@ -25,4 +25,11 @@
       </list>
     </option>
   </inspection_tool>
+  <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoredIdentifiers">
+      <list>
+        <option value="langchain.schema.BaseMemory.chat_memory" />
+      </list>
+    </option>
+  </inspection_tool>
 </profile>
