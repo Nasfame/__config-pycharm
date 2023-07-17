@@ -4,7 +4,7 @@
     <property name="created">2020-04-09T19:24:29</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2019.3.1.0.0</property>
-    <property name="modified">2023-06-30T00:55:42</property>
+    <property name="modified">2020-04-09T20:35:46</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -17,12 +17,6 @@
     <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <attributes>
-    <option name="CONSOLE_BLACK_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="5f5b55" />
-      </value>
-    </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
         <option name="FOREGROUND" value="0" />

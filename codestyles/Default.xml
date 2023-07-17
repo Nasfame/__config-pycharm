@@ -1,7 +1,1 @@
-<code_scheme name="Default" version="173">
-  <option name="ENABLE_SECOND_REFORMAT" value="true" />
-  <codeStyleSettings language="EditorConfig">
-    <option name="SPACE_AROUND_ASSIGNMENT_OPERATORS" value="false" />
-    <option name="SPACE_AFTER_COMMA" value="false" />
-  </codeStyleSettings>
-</code_scheme>
+<code_scheme name="Default" version="173" />
